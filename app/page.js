@@ -3,14 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div style={{
-      backgroundImage: "url('/images/bg_agency.png')",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      height: "900px",
-      width: "100%"
-    }}  >
+    <div  >
 
       {/*Nav Component*/}
 
@@ -18,7 +11,14 @@ export default function Home() {
 
 
       {/*Main Component-------------------------------------------------------------------------------------------------------------*/}
-      <main className=" mx-auto px-10 py-10 ">
+      <main  style={{
+      backgroundImage: "url('/images/bg_agency.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      height: "900px",
+      width: "100%"
+    }} className=" mx-auto px-10 py-10 ">
         <h1
           className="font-extrabold"
           style={{

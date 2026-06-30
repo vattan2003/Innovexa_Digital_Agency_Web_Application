@@ -6,6 +6,8 @@ export default function Portfolio() {
   return (
     <>
 
+
+
       {/*Code for navbar-------------------------------------------------------------------- */}
 
       <Navbar />
@@ -50,13 +52,13 @@ export default function Portfolio() {
         <p style={{ fontFamily: "Verdana, Geneva, sans-serif" }} className="bg-slate-950 text-white p-10">We are a digital agency with **5+ years of experience** delivering innovative web solutions for businesses of all sizes. Our team creates modern, responsive, and user-friendly digital products that help brands grow, improve customer engagement, and solve real-world business challenges through technology.
         </p>
 
-        <img className="w-50  " style={{ borderRadius: "0%", objectFit: "" }} src="/images/ceo.png"></img>
+        <img className="w-50 h-60 pt-20 pr-5 " style={{ borderRadius: "30%", objectFit: "" }} src="/images/ceo.png"></img>
 
       </div>
 
 
-      <div className="bg-slate-950" style={{ display: "flex", justifyContent: 'end' }}>
-        <Link href={"https://new-portfolio-gisv2w0nq-vattan2003s-projects.vercel.app/"} className="bg-slate-950 ">
+      <div className="bg-slate-950 " style={{ display: "flex", justifyContent: 'end' }}>
+        <Link href={"https://new-portfolio-gisv2w0nq-vattan2003s-projects.vercel.app/"}  className="bg-slate-950 ">
           <button className="group rounded-full border border-white/20 bg-white/10 px-8  m-3 py-3 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-cyan-500 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/30">
             <span className="flex items-center gap-2">
               About CEO
