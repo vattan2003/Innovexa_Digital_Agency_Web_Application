@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Navbar() {
   return (
     <nav style={{
-      background: "rgba(240,249,255,.80)",
+      backgroundColor:"white",
       backdropFilter: "blur(20px)",
     }} className="shadow-[0_25px_60px_rgba(0,0,0,0.25)]  sticky top-0 z-50  ">
       <div className="max-w-7xl mx-auto px-6 h-16  gap-1 sm:gap-4 md:gap-6 lg:gap-8  flex items-center justify-between">
