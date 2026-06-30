@@ -14,17 +14,19 @@ export default function Portfolio() {
 
       {/*Code for Header */}
 
-      <div className="" style={{ display: "flex", background: "rgba(15, 3, 12, 0.75)" }}>
+      <div className="" style={{ display: "flex",  background: "rgba(170,251,245,85)",
+backdropFilter: "blur(20px)  " }}>
 
         <h1
           className="font-extrabold"
           style={{
-            fontSize: "64px",
+            fontSize: "44px",
             lineHeight: "75px",
             color: "#fff",
             maxWidth: "700px",
             letterSpacing: "1px",
             padding: "5px",
+          
             textShadow: "0px 15px 20px rgba(0,0,0,.9)",
           }}
         >
@@ -33,7 +35,8 @@ export default function Portfolio() {
             style={{
               display: "block",
               color: "#22d3ee",
-              marginTop: "15px"
+              marginTop: "15px",
+              padding:"5px"
             }}
           >
             WELCOME TO
