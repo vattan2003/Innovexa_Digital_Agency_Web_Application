@@ -5,11 +5,6 @@ export default function Home() {
   return (
     <div  >
 
-      {/*Nav Component*/}
-
-      <Navbar />
-
-
       {/*Main Component-------------------------------------------------------------------------------------------------------------*/}
       <main  style={{
       backgroundImage: "url('/images/bg_agency.png')",
