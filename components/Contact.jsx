@@ -100,16 +100,17 @@ const [form, setForm] = useState({
               boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
             }}
           >
-            <input
+            <input  class="placeholder:text-black"
               type="text"
               name="name"
               placeholder="Your Name"
+             
               value={form.name}
               onChange={handleChange}
               style={inputStyle}
             />
 
-            <input
+            <input   class="placeholder:text-black"
               type="email"
               name="email"
               placeholder="Your Email"
@@ -118,7 +119,7 @@ const [form, setForm] = useState({
               style={inputStyle}
             />
 
-            <textarea
+            <textarea    class="placeholder:text-black"
               name="message"
               placeholder="Your Message"
               rows="6"
