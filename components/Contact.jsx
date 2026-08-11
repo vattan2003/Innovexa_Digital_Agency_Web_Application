@@ -100,7 +100,7 @@ const [form, setForm] = useState({
               boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
             }}
           >
-            <input  class="placeholder:text-black"
+            <input  className="placeholder:text-black"
               type="text"
               name="name"
               placeholder="Your Name"

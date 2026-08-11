@@ -10,52 +10,15 @@ export default function Portfolio(){
         {/*Code for Header */}
         
 
-      <div className="" style={{ display: "flex",  background: "rgba(170,251,245,85)",
-backdropFilter: "blur(20px)  " }}>
-
-        <h1
-          className="font-extrabold"
-          style={{
-            fontSize: "44px",
-            lineHeight: "75px",
-            color: "#fff",
-            maxWidth: "700px",
-            letterSpacing: "1px",
-            padding: "5px",
-          
-            textShadow: "0px 15px 20px rgba(0,0,0,.9)",
-          }}
-        >
-
-          <span
-            style={{
-              display: "block",
-              color: "#22d3ee",
-              marginTop: "15px",
-              padding:"5px"
-            }}
-          >
-            WELCOME TO
-          </span>
-        </h1>
-
-        <img src="/images/logo_Agency.png" className="w-60"></img>
-
-
-      </div>
+      
 
 
 
       {/*Code for About section -----------------------------------------------------------*/}
-
-      <div className="bg-slate-950  " style={{ display: "flex" }}>
-
-        <p style={{ fontFamily: "Verdana, Geneva, sans-serif" }} className="bg-slate-950 text-white p-10">We are a digital agency with **5+ years of experience** delivering innovative web solutions for businesses of all sizes. Our team creates modern, responsive, and user-friendly digital products that help brands grow, improve customer engagement, and solve real-world business challenges through technology.
-        </p>
-
-        <img className="w-50 h-60 pt-20 pr-5 " style={{ borderRadius: "30%", objectFit: "" }} src="/images/ceo.png"></img>
-
-      </div>
+<div>
+<img src="./images/ceo_banner2.png" style={{height:"500px",width:"100%"}}></img>
+</div>
+      
 
 
       <div className="bg-slate-950 " style={{ display: "flex", justifyContent: 'end' }}>
